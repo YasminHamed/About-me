@@ -1,0 +1,33 @@
+body{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(140, 0, 255);
+}
+.num{
+    position: absolute;
+    left: 600px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80px;
+    padding: 5px;
+}
+.projects{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    left: 600px;
+    top: 220px;
+}
+.pro{
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+.yasmin{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}

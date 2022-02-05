@@ -1,0 +1,15 @@
+var n1 = 300;
+var n2 = 10;
+var n3 = 50;
+var n4 = 70;
+var n5 = 40;
+var n6 = 10;
+var n7 = 4;
+var n8 = 25;
+var n9 = 15;
+var n10 = 6;
+var lastN = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
+var final= lastN / 10;
+document.getElementById("num").innerHTML = final;
+var myProfile =["YasminHamed", "front end developer"]
+document.getElementById("profile").innerHTML = myProfile;
