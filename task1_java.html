@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="task1_java.css">
 </head>
 <body>
-    <h1 class="num" id="num"></h1>
-    <img width="500px" src="3.jpeg" alt="">
-    <h1 class="yasmin" id="profile"></h1>
-    <p class="pro"> My Projects :</p>
-    <div class="projects">
-        <a href="https://github.com/YasminHamed/The-Town.git"> The twon</a>
-        <a href="https://github.com/YasminHamed/Netflixx_on.git">Netflix</a>
-        <a href="https://github.com/YasminHamed/Deliver_it.git">Deliver it</a>
-        <a href="https://github.com/YasminHamed/Front-end_Developer.git">Front-end Developer</a>
-        <a href="https://github.com/YasminHamed/fitness.git">Fitness</a>
+    <div id="mySidebar" class="sideNav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="main">
+        <button onclick="DarkMode()" class="btn">Dark</button>
+        <span style="font-size: 30px; cursor: pointer;" onclick="opennNav()">&#9776;</span>
+        <h1 class="num" id="num"></h1>
+        <img width="500px" src="3.jpeg" alt="">
+        <h1 class="yasmin" id="profile"></h1>
+        <p class="pro"> My Projects :</p>
+        <div class="projects">
+            <a href="https://github.com/YasminHamed/The-Town.git"> The twon</a>
+            <a href="https://github.com/YasminHamed/Netflixx_on.git">Netflix</a>
+            <a href="https://github.com/YasminHamed/Deliver_it.git">Deliver it</a>
+            <a href="https://github.com/YasminHamed/Front-end_Developer.git">Front-end Developer</a>
+            <a href="https://github.com/YasminHamed/fitness.git">Fitness</a>
+        </div>
     </div>
     <script src="task1_java.js"></script>
 </body>

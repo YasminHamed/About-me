@@ -1,15 +1,18 @@
-var n1 = 300;
-var n2 = 10;
-var n3 = 50;
-var n4 = 70;
-var n5 = 40;
-var n6 = 10;
-var n7 = 4;
-var n8 = 25;
-var n9 = 15;
-var n10 = 6;
-var lastN = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
-var final= lastN / 10;
-document.getElementById("num").innerHTML = final;
+function opennNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+}
 var myProfile =["YasminHamed", "front end developer"]
 document.getElementById("profile").innerHTML = myProfile;
+function DarkMode(){
+    document.body.classList.toggle("dark")
+}
+function ClickBtn(a,b,c,d) {
+    return a+b+c+d
+}
+ClickBtn(3,5,2,4)
+document.getElementById("num").innerHTML = ClickBtn(2,6,1,5)
